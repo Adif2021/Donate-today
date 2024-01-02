@@ -31,7 +31,7 @@
 .help-description{
     margin-bottom: 25px;
 }
-main{
+section{
     margin-top: 50px;
 }
 .donate{
@@ -64,4 +64,74 @@ main{
 }
 .number{
     
+}
+/* plan styles */
+.donation{
+    text-align: center;
+}
+.plan{
+    display: flex;
+    gap: 24px;
+    ;
+    
+
+}
+.plan .fundamentals{
+background: rgba(222, 184, 135, 0.323);
+border: 0;
+border-radius: 5px;
+padding: 30px 15px;
+justify-content: center;
+box-shadow: 0px 6px 50px rgba(0,0,0,06);
+}
+.plan-title{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* depend styles */
+.depend{
+  display: flex;
+  padding: 50px 250px;
+  gap: 44px;
+}
+.depend-title{
+    margin-bottom:10px ;
+    font-size: 28px;
+    font-weight: 700;
+    }
+.depend-description{
+    margin-bottom: 15px;
+    color: #757575;
+    font-size: medium;
+}    
+.updates{
+    text-align: center;
+}
+.update-title{
+    font-size: 30px;
+    font-weight:bolder;
+    margin-bottom: 20px;
+}
+.update-description{
+    color: #757575;
+    margin-bottom: 15px;
+}
+input{
+    height: 43px;
+    width: 300px;
+    border: 0;
+    background:#7575756b;
+}
+.email{
+    background:rgba(222, 184, 135, 0.323) ;
+    margin: 0 300px;
+    padding: 50px ;
+}
+.end{
+    text-align: center;
+    color: maroon;
+    background: black;
+    padding: 34px;
 }
